@@ -1,0 +1,11 @@
+# Ignore
+npm-debug.log*
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+

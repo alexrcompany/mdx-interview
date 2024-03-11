@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full;
+}
+body {
+  @apply h-full;
+}
+#root {
+  @apply h-full;
+}
+
+@layer base {
+  html {
+    @apply text-surface;
+    @apply bg-white;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-body-dark;
+  }
+}
+
+#main-container {
+  display: flex;
+  padding: 6px 12px;
+  border-top: none;
+  justify-content: center;
+}
+
+#container{  
+  text-align: center;
+  margin-top: 80px;
+  width: 60%;
+}

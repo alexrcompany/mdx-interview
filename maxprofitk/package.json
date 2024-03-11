@@ -1,0 +1,18 @@
+{
+  "name": "ktransactions",
+  "version": "1.0.0",
+  "description": "Modex - K transactions function",
+  "main": "maxprofitk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "interview",
+    "stocks",
+    "transaction",
+    "profit",
+    "minmaxing"
+  ],
+  "author": "Alex Andreu",
+  "license": "ISC"
+}
